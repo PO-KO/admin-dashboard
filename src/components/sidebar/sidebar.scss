@@ -1,3 +1,39 @@
+@import "../../variables.scss";
+
 .sidebar {
   width: 15%;
+  padding: 15px 0;
+  border-right: $primary-border;
+  &-box {
+    margin-bottom: 15px;
+  }
+
+  &-title {
+    color: $black-clr-300;
+    margin-bottom: 5px;
+    padding-left: 15px;
+  }
+
+  &-item-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 7px 4px 7px 22px;
+    font-size: 18px;
+    color: $primary-clr;
+    transition: 0.1s;
+    &:hover {
+      background-color: $black-clr-100;
+    }
+    // &.active {
+    //   background-color: $black-clr-100;
+    // }
+  }
+
+  &-item-text {
+    color: $black-clr-400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
 }

@@ -27,8 +27,8 @@ const Navbar = () => {
         <AiOutlineSearch className="search-icon" />
       </section>
       <ul className="navbar-buttons">
-        {icons.map(({ icon, lang, hasNotification }) => (
-          <li className="navbar-btn">
+        {icons.map(({ icon, lang, hasNotification }, index) => (
+          <li className="navbar-btn" key={index}>
             {icon}
             {lang && <span>{lang}</span>}
             {hasNotification && <span className="notifiction" />}
