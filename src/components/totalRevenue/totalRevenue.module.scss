@@ -1,0 +1,58 @@
+@import "../../variables.scss";
+
+.totalRevenue {
+  width: 30%;
+  box-shadow: $primary-shadow;
+  padding: $widget-padding;
+  border-radius: $primary-radius;
+
+  .title {
+    color: $black-clr-300;
+    font-size: 18px;
+  }
+
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+
+    .icon {
+      cursor: pointer;
+      font-size: 20px;
+      color: $black-clr-300;
+    }
+  }
+
+  .center {
+    text-align: center;
+    margin: 20px 0;
+    .progressContainer {
+      width: 119px;
+      margin: 20px auto;
+    }
+
+    .income {
+      font-size: 40px;
+      display: block;
+      margin: 20px 0;
+    }
+
+    .message {
+      font-size: 15px;
+      color: $black-clr-300;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+    .value {
+      display: block;
+      margin-top: 15px;
+      font-size: 18px;
+    }
+  }
+}

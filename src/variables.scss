@@ -1,12 +1,15 @@
 // Colors
 
 $primary-clr: hsl(353, 86%, 54%);
+$primary-clr-200: hsl(354, 64%, 82%);
+$primary-clr-800: hsl(354, 94%, 20%);
 $black-clr-100: hsl(0, 0%, 97%);
 $black-clr-200: hsl(0, 14%, 89%);
 $black-clr-300: hsl(0, 0%, 55%);
 $black-clr-400: hsl(0, 0%, 44%);
 $black-clr-900: hsl(204, 10%, 10%);
-$mostly-white-clr: hsl(0, 0%, 100%);
+$light-clr-900: hsl(0, 0%, 100%);
+$green-clr: hsl(123, 100%, 32%);
 
 // Sizes
 
@@ -15,3 +18,7 @@ $header-size: 57px;
 // others
 
 $primary-border: 1px solid $black-clr-200;
+$primary-radius: 10px;
+$primary-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+  rgba(17, 17, 26, 0.05) 0px 8px 32px;
+$widget-padding: 13px;

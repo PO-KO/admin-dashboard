@@ -1,0 +1,14 @@
+@import "../../variables.scss";
+
+.lastIncome {
+  width: 68%;
+  box-shadow: $primary-shadow;
+  border-radius: $primary-radius;
+  padding: $widget-padding;
+
+  .title {
+    font-size: 16px;
+    color: $black-clr-300;
+    margin-bottom: 10px;
+  }
+}

@@ -1,4 +1,19 @@
 .home {
-  background-color: aliceblue;
-  width: 85%;
+  flex: 1;
+
+  .wrapper {
+    padding: 20px;
+
+    .top {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 24px;
+    }
+
+    .center {
+      display: flex;
+      justify-content: space-between;
+      margin: 35px 0;
+    }
+  }
 }

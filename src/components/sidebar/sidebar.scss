@@ -1,7 +1,7 @@
 @import "../../variables.scss";
 
 .sidebar {
-  width: 15%;
+  width: 200px;
   padding: 15px 0;
   border-right: $primary-border;
   &-box {
@@ -35,5 +35,29 @@
     font-size: 16px;
     display: flex;
     align-items: center;
+  }
+
+  .theme-control {
+    display: flex;
+    gap: 10px;
+    padding-left: 22px;
+    margin-top: 12px;
+
+    .theme-clr {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      cursor: pointer;
+
+      &.active {
+        border: 1px solid $black-clr-400;
+      }
+      &.light {
+        background: $light-clr-900;
+      }
+      &.dark {
+        background: $black-clr-900;
+      }
+    }
   }
 }

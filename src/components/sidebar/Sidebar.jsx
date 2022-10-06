@@ -66,6 +66,13 @@ const Sidebar = () => {
           </ul>
         </section>
       ))}
+      <section className="sidebar-box">
+        <h5 className="sidebar-title">THEME</h5>
+        <ul className="theme-control">
+          <li className="theme-clr light active"></li>
+          <li className="theme-clr dark"></li>
+        </ul>
+      </section>
     </aside>
   );
 };

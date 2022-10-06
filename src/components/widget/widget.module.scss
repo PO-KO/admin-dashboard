@@ -1,0 +1,75 @@
+@import "../../variables.scss";
+
+.widget {
+  box-shadow: $primary-shadow;
+  border-radius: $primary-radius;
+  padding: $widget-padding;
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+      text-transform: uppercase;
+      color: $black-clr-300;
+      font-size: 16px;
+    }
+
+    .change {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 20px;
+
+      svg {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .center {
+    font-size: 46px;
+    color: $black-clr-900;
+    margin: 15px 0 7px;
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .link {
+      font-size: 17px;
+      color: $black-clr-900;
+      border-bottom: 1px solid $black-clr-900;
+    }
+
+    .iconHolder {
+      font-size: 20px;
+      width: 40px;
+      height: 40px;
+      border-radius: $primary-radius;
+      display: grid;
+      place-items: center;
+    }
+  }
+
+  &:nth-child(1) .iconHolder {
+    background: $primary-clr-200;
+    color: $primary-clr-800;
+  }
+  &:nth-child(2) .iconHolder {
+    background: hsl(50, 100%, 76%);
+    color: hsl(50, 100%, 30%);
+  }
+  &:nth-child(3) .iconHolder {
+    background: hsl(123, 100%, 76%);
+    color: hsl(123, 100%, 36%);
+    font-size: 23px;
+  }
+  &:nth-child(4) .iconHolder {
+    background: hsl(278, 51%, 76%);
+    color: hsl(278, 51%, 36%);
+    font-size: 23px;
+  }
+}
